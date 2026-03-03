@@ -22,7 +22,7 @@ public class Call_taxiservice {
 
     public void bookTaxi(int customerId, char from, char to, int pickupTime) {
 
-        Taxi selected = taxis.get(0);  e
+        Taxi selected = taxis.get(0);  
 
         int distance = Math.abs(from - to);
         int km = distance * 15;
